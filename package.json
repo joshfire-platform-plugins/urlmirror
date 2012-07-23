@@ -25,7 +25,11 @@
           "type": "string",
           "title": "The secret hash to become master (no space)."
         }
-      }
+      },
+      "form": [
+        "pusherAppKey",
+        "secret"
+      ]
     }
   }
 }
