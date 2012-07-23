@@ -21,9 +21,9 @@
           "type": "string",
           "title": "Pusher APP KEY"
         },
-        "pusherAppSecret": {
+        "secret": {
           "type": "string",
-          "title": "Pusher APP SECRET"
+          "title": "The secret hash to become master (no space)."
         }
       }
     }

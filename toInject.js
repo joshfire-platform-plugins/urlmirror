@@ -16,12 +16,12 @@ channel.bind('client-changed-url', function(data) {
 // we *have to* listen to pusher:subscription_succeeded
 channel.bind('pusher:subscription_succeeded', function() {
   function locationHashChanged() {
-    if (location.hash === '#iamamaster' && !window.IAMAmaster) {
+    if (location.hash === '#_SECRET_' && !window.IAMAmaster) {
       alert('You\'re now the master');
       window.IAMAmaster = true;
       window.location.hash = '';
     }
-    if (window.IAMAmaster && location.hash !== '#iamamaster') {
+    if (window.IAMAmaster && location.hash !== '#_SECRET_') {
       var triggered = channel.trigger('client-changed-url', {url: location.hash});
     }
   }
