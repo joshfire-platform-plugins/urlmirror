@@ -10,3 +10,4 @@ This addon allow someone to sync the display of the same app on different device
 ## TODO
 
  - Monitor `pushState` and not only `hashchange`
+ - We shouldn't have to rely on http://pusherauthp.herokuapp.com/pusher/auth
