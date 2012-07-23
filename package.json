@@ -1,0 +1,31 @@
+{
+  "name": "mirror-addon",
+  "fullName": "Mirror addon",
+  "version": "1.0.0",
+  "keywords": [
+    "pusher",
+    "websocket",
+    "synchronization"
+  ],
+  "description": "Mirror the current screen between all app instances (via the URL!)",
+  "joshfire": {
+    "debugmode": true,
+    "images": {},
+    "hooks": [
+      "startfile",
+      "bootstrap"
+    ],
+    "options": {
+      "schema": {
+        "pusherAppKey": {
+          "type": "string",
+          "title": "Pusher APP KEY"
+        },
+        "pusherAppSecret": {
+          "type": "string",
+          "title": "Pusher APP SECRET"
+        }
+      }
+    }
+  }
+}

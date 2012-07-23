@@ -1,0 +1,2 @@
+-pushState and not only hashchange
+-test params.options (should be Pusher App Key, secret string for becoming master, )
