@@ -8,6 +8,7 @@
     "synchronization"
   ],
   "description": "Mirror the current screen between all app instances (via the URL!)",
+  "devonly": true,
   "joshfire": {
     "hooks": [
       "startfile",
